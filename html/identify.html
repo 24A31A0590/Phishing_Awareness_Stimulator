@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Training - Identify Threats</title>
+    <link rel="stylesheet" href="../css/identify.css">
+</head>
+<body>
 
+<header>
+    <h1>🛡 Phishing Awareness Training</h1>
+    <p>Learn how to detect suspicious emails like a cybersecurity expert.</p>
+</header>
+
+<section class="info">
+    <h2>📘 What Should You Look For?</h2>
+    <ul>
+        <li>⚠️ Fake email addresses</li>
+        <li>⚠️ Urgent or threatening language</li>
+        <li>⚠️ Suspicious links</li>
+        <li>⚠️ Grammar mistakes</li>
+    </ul>
+</section>
+
+<section class="exercise">
+    <h2>🎯 Your Task</h2>
+    <p>You are a security analyst. Click on suspicious elements in the email below.</p>
+
+    <div class="email-box">
+        <p><strong>From:</strong> 
+            <span class="clickable" data-correct="true" data-info="Fake domain (paypa1 instead of paypal)">
+                support@paypa1.com
+            </span>
+        </p>
+
+        <p><strong>Subject:</strong> 
+            <span class="clickable" data-correct="true" data-info="Creates urgency to scare user">
+                Urgent! Account Suspension Notice
+            </span>
+        </p>
+
+        <p>Hello Customer,</p>
+
+        <p>
+            We detected unusual activity. Please 
+            <span class="clickable" data-correct="true" data-info="Unknown link asking for sensitive info">
+                click here
+            </span> 
+            to verify immediately.
+        </p>
+
+        <p>
+            If you do not act, your account will be permanently blocked.
+        </p>
+
+        <p>
+            <span class="clickable" data-correct="true" data-info="Fake CTA button">
+                Verify Now
+            </span>
+        </p>
+
+        <p>
+            <span class="clickable" data-correct="true" data-info="Poor grammar is a red flag">
+                This is not proper sentence grammar
+            </span>
+        </p>
+
+        <p>Thank you,<br>Support Team</p>
+    </div>
+
+    <button onclick="checkAnswers()">Submit Analysis</button>
+    <button onclick="resetGame()">Retry</button>
+
+    <div id="resultBox"></div>
+
+</section>
+
+<script src="../js/identify.js"></script>
+
+</body>
+</html>
