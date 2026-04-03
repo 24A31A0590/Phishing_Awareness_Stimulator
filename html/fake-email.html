@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake Email Simulation</title>
 
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../css/fake_email.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📧 Fake Email Simulation</h1>
+    <p>Identify whether this email is safe or phishing</p>
+</header>
+
+<div class="email-container">
+
+    <div class="email-header">
+        <p><strong>From:</strong> 
+            <span class="sender">support@paytm-secure-login.xyz</span>
+        </p>
+        <p class="subject">
+            <strong>Subject:</strong> Urgent: Your Account Will Be Suspended!
+        </p>
+    </div>
+
+    <div class="email-body">
+        <p>Dear User,</p>
+
+        <p>Your account has been flagged for suspicious activity. 
+        If you do not verify your account within <b>24 hours</b>, 
+        it will be permanently suspended.</p>
+
+        <p>Please click the link below to secure your account:</p>
+
+        <p class="fake-link" onclick="clickPhishingLink()">
+            👉 Verify Now
+        </p>
+
+        <p>Failure to act immediately may result in account loss.</p>
+
+        <p>Regards,<br>Paytm Security Team</p>
+    </div>
+
+    <div class="actions">
+        <button class="report" onclick="reportPhishing()">
+            Report as Phishing
+        </button>
+
+        <button class="click-link" onclick="clickPhishingLink()">
+            Click Link
+        </button>
+    </div>
+
+    <div id="result"></div>
+
+</div>
+
+<!-- Link JS -->
+<script src="../js/fake_email.js"></script>
+
+</body>
+</html>
