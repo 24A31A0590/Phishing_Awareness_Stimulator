@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Bank Login</title>
+    <link rel="stylesheet" href="../css/website-simulation.css">
+</head>
 
+<body>
+
+<!-- 🔗 Fake URL Bar -->
+<div class="url-bar">
+    🔒 <span>https://secure-bank-login.xyz</span>
+</div>
+
+<!-- Login Section -->
+<div class="container">
+    <div class="login-box">
+        <h2>Secure Bank</h2>
+        <p>Login to your account</p>
+
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+
+        <!-- ✅ SIMPLE WORKING BUTTON -->
+        <button onclick="simulateLogin()">Login</button>
+    </div>
+</div>
+
+<!-- Result Popup -->
+<div id="result"></div>
+
+<script src="../js/website-simulation.js"></script>
+</body>
+</html>
