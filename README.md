@@ -14,12 +14,12 @@ The **Phishing Awareness Simulator** is a frontend web application built as part
 
 ## 👩‍💻 Team Members
 
-| Name |
-|------|
-| Nadiminti Sai Priya Satwika |
-| Killadi Divya Jyothi |
-| Chikkam Harshitha |
-| Reddypalli Pushpa Varun |
+| Name | Roll Number |
+|------|-------------|
+| Nadiminti Sai Priya Satwika | 24A31A0590 |
+| Killadi Divya Jyothi | 24A31A0582 |
+| Chikkam Harshitha | 24A31A0570 |
+| Reddypalli Pushpa Varun | 24A31A05AY |
 
 ---
 
